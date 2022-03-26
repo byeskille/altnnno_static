@@ -1,0 +1,50 @@
+/* CSS */
+
+
+body {
+    background-color: white;
+  }
+
+h1 {
+    color: black;
+    font-size: 2em;
+    font-family: 'LFT Etica Book','Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+
+h3 {
+    color: black;
+    font-size: 1em;
+    font-family: 'LFT Etica Book','Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+
+p {
+    color: black;
+    font-family: 'LFT Etica Book','Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.logo-button {
+    background-color: #F80;
+    width: 140px;
+    height: 44px;
+  }
+
+.nrkbeta-logo {
+    background: url("nrkbeta-logo.svg") no-repeat 0 0;
+    width: 140px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 10px auto 10px 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    z-index: 99;
+    color: #FFF;
+    border: 0;
+}
